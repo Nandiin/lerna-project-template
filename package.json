@@ -2,7 +2,13 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "postinstall": "lerna bootstrap"
+    "postinstall": "lerna bootstrap",
+    "build:esm": "lerna run build:esm",
+    "build:cjs": "lerna run build:cjs",
+    "build": "lerna run build",
+    "watch:esm": "lerna run watch:esm --stream",
+    "watch:cjs": "lerna run watch:cjs --stream",
+    "watch": "lerna run watch --stream"
   },
   "devDependencies": {
     "concurrently": "^5.0.0",
