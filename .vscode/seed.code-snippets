@@ -11,8 +11,8 @@
 		"prefix": "scripts",
 		"body": [
 			"\"scripts\": {",
-			"  \"build:esm\": \"tsc --outDir esm --module es2015\",",
-			"  \"build:cjs\": \"tsc --outDir cjs --module commonjs\",",
+			"  \"build:esm\": \"tsc --outDir dist/esm --module es2015\",",
+			"  \"build:cjs\": \"tsc --outDir dist/cjs --module commonjs\",",
 			"  \"build\": \"yarn build:esm && yarn build:cjs\",",
 			"  \"watch:esm\": \"yarn build:esm -w\",",
 			"  \"watch:cjs\": \"yarn build:cjs -w\",",
