@@ -5,7 +5,9 @@
     "postinstall": "lerna bootstrap"
   },
   "devDependencies": {
-    "lerna": "^3.16.4"
+    "concurrently": "^5.0.0",
+    "lerna": "^3.16.4",
+    "typescript": "^3.7.2"
   },
   "workspaces": [
     "packages/*"
